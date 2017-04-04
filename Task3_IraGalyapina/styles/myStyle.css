@@ -1,0 +1,148 @@
+body {
+    direction: rtl;
+    background-image: url('../image/snowflakes-1236247_960_720.jpg');
+    background-size:cover;
+    display:block;
+}
+
+#container {
+    width:700px;
+    height:850px;
+    margin:0 auto;
+    background-color:#f7f3f7;
+    border: solid;
+    border-color:#7a727c;
+    font-family:Algerian;
+    
+ }
+
+#content {
+padding:40px;
+margin:60px;
+font-size:16px;
+font-family:Arial;
+}
+
+h1 {
+    text-align:center;
+    color:#6d5d6d;
+   
+}
+
+img {
+    display:block;
+    margin:0  auto;
+    border-radius: 60%;
+    border:solid;
+    border-color:#6d5d6d;
+    width: 300px;
+    height: 300px;
+    
+	
+}
+
+
+#img3 {
+    display:block;
+    margin:0  auto;
+    border-radius: 60%;
+    border:solid;
+    border-color:#6d5d6d;
+    width:100px;
+    height: 100px;
+}
+
+
+h2 {
+    color:#6d5d6d;
+
+}
+
+
+#facebook {
+
+    list-style-image: url('../image/facebook-logotype-button.png');
+}
+
+
+#facebook:hover {
+        list-style-image: url('../image/facebook-logotype-button_BLUE.png');
+        color: blue;
+    }
+
+#instagram {
+    list-style-image: url('../image/instagram-big-logo.png');
+
+}
+
+#instagram:hover {
+    list-style-image: url('../image/instagram-big-logo_blue.png');
+    color: blue;
+
+}
+
+#gmail {
+   list-style-image: url('../image/envelope.png');
+
+
+}
+
+#gmail:hover {
+    list-style-image: url('../image/envelope_blue.png');    
+    color: blue;
+
+}
+
+ul
+{
+list-style:none;
+}
+
+
+nav 
+{
+    display:block;
+    width:100%;
+}
+
+
+nav ul li
+{
+//display:inline-block;
+float:right;
+}
+
+nav ul li a
+{
+display: block;
+background-color: #877490;
+color:#ffffff;
+width: 120px;
+height: 40px;
+padding-top: 10px;
+text-align: center;
+font-size:17px;
+}
+
+nav ul li a:hover
+{
+background-color: #ab9bad;
+}
+ nav ul li a:active {
+background-color: #27162c;
+
+
+    }
+
+ nav ul li ul
+{
+display:none;
+position: absolute;
+
+}
+
+ nav ul li:hover ul
+{
+display:block;
+width:120px;
+}
