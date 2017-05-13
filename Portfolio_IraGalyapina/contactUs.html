@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js"
+            type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <input type="hidden" id="myEmail" name="name" value="irengalyapina@gmail.com">
+        <header class="myFilm" id="film">
+            
+            <img id="full" src="images/Untitled-1-Recovered.jpg"/>
+            
+            <nav>
+                <ul>
+                    <li> <a  href="index.html">דף הבית </a> </li>
+                    <li> <a href="graphicArt.html"> גרפיקה ממוחשבת </a></li>
+                    <li> <a href="visual.html"> תקשורת חזותית </a> </li>
+                    <li> <a href="ortal.html"> ארגון ויצוג ידע </a> </li>
+                    <li style="float:left"><a href="contactUs.html" class="active">להזמנת עבודה </a></li>
+                </ul>
+            </nav>
+            <div id="form-main">
+                <div id="form-div">
+                    <form class="form" id="form1">
+
+                        <p class="name">
+                            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="שם מלא" id="name" />
+                        </p>
+
+                        <p class="email">
+                            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                        </p>
+
+                        <p class="text">
+                            <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="הודעה\תגובה"></textarea>
+                        </p>
+
+
+                        <div class="submit">
+                            <input type="submit" value="שלח" id="button" />
+                            <div id="feedback"></div>
+                            <div class="ease"></div>
+                        </div>
+                    </form>
+                </div>
+
+</header>
+    <footer>
+    </footer>
+    </div>
+</body>
+</html>
